@@ -261,12 +261,12 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
-  width: 100%;
+  
 }
 
 .inner {
   position: relative;
-  max-width: 600px;
+  
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -362,7 +362,10 @@ Full-Width Styles
 
 #main_content {
   padding-top: 40px;
-  background: url(../images/back_1.jpg) no-repeat ;
+  height: 1000px;
+  background: url(../images/back_1.jpg)  top center no-repeat ;
+  background-attachment: scroll;
+  background-size:100% ;
 }
 
 #footer_wrap {
