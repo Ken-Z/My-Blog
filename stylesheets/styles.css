@@ -1008,3 +1008,6 @@ footer {
     width: auto;
   }
 }
+#main_content {
+    background-color: darkseagreen;
+}
