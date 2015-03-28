@@ -1,7 +1,7 @@
 /*******************************************************************************
 Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
-*******************************************************************************/
+******************************************************************************/
 
 @import url(pygment_trac.css);
 
@@ -355,18 +355,19 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  height: 1000px;
+    display: block;
+    clear: both;
+  overflow: visible;
+  background: url(../images/back_1.jpg)  top center no-repeat ;
+  background-size: 100%;
 }
 
 #main_content {
   margin: 0 auto;
   padding: 40px;
-  height: 1000px;
-  background: url(../images/back_1.jpg)  top center no-repeat ;
-  background-attachment: scroll;
-  background-size:100% ;
 }
 
 #footer_wrap {
