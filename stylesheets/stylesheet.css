@@ -361,7 +361,7 @@ Full-Width Styles
     display: block;
     clear: both;
   overflow: visible;
-  background: url(../images/back_1.jpg)  top center no-repeat ;
+  background: url(../images/back_1.jpg)  fixed no-repeat 0 0;
   background-size: 100%;
 }
 
