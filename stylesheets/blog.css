@@ -1,0 +1,13 @@
+* {margin: 0;padding: 0}
+body {
+	padding: 5% 20%;
+	margin: 0 auto;
+	background-color: #8a6bbe;
+}
+div {margin: 0 ;
+	height: 1000px;
+}
+h1 {padding-bottom: 50px}
+p {padding: 0 40px;
+	text-indent: 2em;
+}
